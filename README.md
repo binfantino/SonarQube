@@ -19,7 +19,7 @@ Please note that this chart only supports SonarQube Community, Developer, and En
 To install the chart:
 
 ```bash
-helm repo add sonarqube https://SonarSource.github.io/helm-chart-sonarqube
+helm repo add sonarqube https://github.com/binfantino/SonarQube.git
 helm repo update
 kubectl create namespace sonarqube
 helm upgrade --install -n sonarqube sonarqube sonarqube/sonarqube
